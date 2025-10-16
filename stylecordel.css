@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Sriracha&display=swap);
+
+:root{
+    --fonte-h1: 'Passion One', cursive;
+    --fonte-p: 'Sriracha', cursive;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color:black;
+    color: white;
+    text-align:center;
+    margin: auto;
+    border: 0px;
+    padding: 55px;
+    
+}
+
+h1 {
+    font-family:var(--fonte-h1) ;
+    font-weight:bold;
+    font-size: 6rem;
+}
+
+header h1 span.PrimeiraLetra{
+    font-family: var(--fonte-h1);
+    font-weight: bold;
+    font-size:8.3rem;
+    color: white;
+}
+
+body header p{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    color:white;
+}
+
+body header p a{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    text-decoration-line:none;
+    color:white;
+}
+
+body header p a:hover{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    text-decoration-line:underline;
+    color:white;
+}
+
+body main{
+    background-color: white;
+
+}
+
+body main section.FundoBranco{
+    color:black;
+    text-align: left;
+    font-size: 3rem;
+    font-family: var(--fonte-p),cursive;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    line-height:2 ;
+}
+body main section.FundoImagemUm{
+    color: white;
+    background-image: url(./imagens/background001.jpeg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: left;
+    font-size: 3rem;
+    font-family: var(--fonte-p),cursive;
+    padding: 67px;
+    line-height:2 ;
+    background-attachment :fixed;
+}
+
+body main section.FundoImagemUm p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-left: -34px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body main section.FundoImagemDois{
+    color: white;
+    background-image: url(./imagens/background002.jpeg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: left;
+    font-size: 3rem;
+    font-family: var(--fonte-p),cursive;
+    padding: 67px;
+    line-height:2 ;
+    background-attachment :fixed;
+}
+
+body main section.FundoImagemDois p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-left: -34px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align:center;
+}
+
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    color:white;
+}
+
+footer p a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    font-weight: bold;
+    color:white;
+    text-decoration: underline;
+}
